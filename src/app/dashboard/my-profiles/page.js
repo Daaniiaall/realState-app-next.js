@@ -9,13 +9,14 @@ import MyProfilesPage from "@/templates/MyProfilesPage";
 import { redirect } from "next/navigation";
 
 async function MyProfiles() {
-
-  redirect("/dashboard/my-profiles")
-
   await connectDB();
 
   const session = await getServerSession(authOptions);
-//   console.log(session);
+  //   console.log(session);
+
+  if (session) {
+    redirect("/dashboard/my-profiles");
+  }
 
   const [client] = await Client.aggregate([
     { $match: { email: session.user.email } },
@@ -29,7 +30,7 @@ async function MyProfiles() {
     },
   ]);
 
-//   console.log(client.profiles);
+  //   console.log(client.profiles);
 
   return <MyProfilesPage profiles={client.profiles} />;
 }
