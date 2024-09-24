@@ -9,15 +9,6 @@ import LogoutButton from "@/modules/LogoutButton";
 async function DashboardSidebar({ children, email, role }) {
   return (
     <div className={styles.container}>
-      {/* <div className={styles.navbar}>
-        <Link href="/dashboard">حساب کاربری</Link>
-        <Link href="/dashboard/my-profiles">آگهی های من</Link>
-        <Link href="/dashboard/add">ثبت آگهی</Link>
-        {role === "ADMIN" ? <Link href="/admin">در انتظار تایید</Link> : null}
-        <button>خروج
-          <MdOutlineLogout />
-        </button>
-      </div> */}
 
       <div className={styles.sidebar}>
         <CgProfile />

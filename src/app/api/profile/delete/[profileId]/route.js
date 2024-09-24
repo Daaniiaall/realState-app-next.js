@@ -38,7 +38,7 @@ export async function DELETE(req, context) {
 
     await Profile.deleteOne({ _id: id });
     return NextResponse.json(
-      { message: "آکهی مورد نظر حذف شد" },
+      { message: "آگهی مورد نظر حذف شد" },
       { status: 200 }
     );
   } catch (error) {
