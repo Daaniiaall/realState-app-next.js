@@ -1,0 +1,9 @@
+.text {
+  font-weight: 400;
+  padding: 10px;
+  background: #ff000052;
+  color: #8f1212;
+  border-radius: 10px;
+  width: 100%;
+  height: max-content;
+}

@@ -1,0 +1,29 @@
+.container {
+  padding: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+}
+
+.radio {
+    background-color: #c8dff6;
+    padding: 3px 7px;
+    border-radius: 10px;
+}
+
+.container h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #304ffe;
+    margin-bottom: 5px; 
+}
+
+.radio label {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #304ffe;
+    margin-left: 3px;
+}

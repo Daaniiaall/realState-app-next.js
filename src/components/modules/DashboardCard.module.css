@@ -1,0 +1,47 @@
+.container {
+  border: 1px solid #9aa9ff;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.actions {
+  margin: 15px;
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.actions button {
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 400;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.edit:hover , .delete:hover {
+  transform: scale(1.02);
+}
+
+.edit {
+  color: green;
+  border: 1px solid green;
+}
+.delete {
+  color: red;
+  border: 1px solid red;
+}
+
+@media all and (max-width:600px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .actions {
+    margin: 0;
+}
+}

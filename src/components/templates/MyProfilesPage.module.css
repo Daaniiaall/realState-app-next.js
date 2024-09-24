@@ -1,0 +1,8 @@
+.text {
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 10px;
+    background: #ff000052;
+    color: #8f1212;
+    border-radius: 10px;
+}

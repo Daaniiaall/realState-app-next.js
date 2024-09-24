@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+
+.container label {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #304ffe;
+  margin-bottom: 5px;
+}
+
+.container input {
+  border: 1px dashed #304ffe;
+  outline: none;
+  margin-bottom: 10px;
+  max-width: 200px;
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
+.container textarea {
+  font-size: 0.9rem;
+  padding: 8px;
+  border: 1px dashed #304ffe;
+  outline: none;
+  margin-bottom: 10px;
+  max-width: 300px;
+}

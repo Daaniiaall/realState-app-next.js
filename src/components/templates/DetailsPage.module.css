@@ -1,0 +1,118 @@
+
+.main {
+  padding: 10px 25px;
+  margin: 25px 0;
+}
+
+.main h1 {
+  color: #304ffe;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.main span {
+  color: grey;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.main h3 {
+  color: #304ffe;
+  border-bottom: 2px solid silver;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.main p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.main ul {
+  padding-right: 15px;
+  margin-bottom: 25px;
+}
+
+.main ul li {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.main ul li::marker {
+  color: #304ffe;
+}
+
+.main .text {
+  color: rgb(190, 42, 42);
+}
+
+.sidebar {
+  box-shadow: 0px 0px 8px -3px #304ffe;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: max-content;
+  margin: 25px 0;
+}
+.realState {
+  box-shadow: 0px 0px 8px -3px #304ffe;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.realState .icon {
+  background-color: #304ffe;
+  color: #fff;
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 50%;
+}
+.realState h3 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.realState p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: gray;
+  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.details {
+  box-shadow: 0px 0px 8px -3px #304ffe;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.details p {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+.details p svg {
+  color: #304ffe;
+}
+.details span {
+  color: gray;
+  font-weight: 400;
+}
+
+@media all and (min-width:768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+  }
+}

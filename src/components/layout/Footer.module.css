@@ -1,0 +1,16 @@
+.footer{
+    background-color: #304ffe;
+    color: #fff;
+    direction: ltr;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 80px 0 20px;
+}
+
+.footer svg {
+    color: red;
+}
+.footer a {
+    color: azure;
+}

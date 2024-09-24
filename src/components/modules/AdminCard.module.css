@@ -1,0 +1,54 @@
+.container {
+  box-shadow: 0px 0px 8px -3px #304ffe;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.container h3 {
+  color: #304ffe;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.container div {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.container span {
+  background-color: #304ffe;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: 0.8rem;
+}
+
+.container button {
+  padding: 5px;
+  background-color: #e0e5ff;
+  color: #304ffe;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.container button:nth-child(2) {
+  background-color: #3ec23e;
+  color: #fff;
+}
+
+.container button:nth-child(3) {
+  background-color: #c23e3e;
+  color: #fff;
+}

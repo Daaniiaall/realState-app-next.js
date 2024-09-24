@@ -1,0 +1,30 @@
+.card {
+  width: max-content;
+  padding: 10px;
+  box-shadow: 0px 0px 8px -3px #304ffe;
+  border-radius: 10px;
+}
+.card a {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card img {
+  border-radius: 5px;
+}
+.card span {
+  text-align: center;
+  font-weight: 600;
+  color: #304ffe;
+}
+
+.card:hover {
+    transform: rotate(-5deg);
+}
+
+@media all and (max-width:600px) {
+    .card:hover {
+        transform: scale(1.05);
+    }
+}

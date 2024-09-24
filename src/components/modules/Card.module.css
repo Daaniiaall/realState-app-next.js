@@ -1,0 +1,93 @@
+.container {
+  border: 1px solid #9aa9ff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px -3px #304ffe;
+  padding: 15px;
+  margin: 15px 0;
+  min-width: 250px;
+  min-height: max-content;
+}
+
+.icon {
+  background-color: #e0e5ff;
+  background-color: #304ffe00;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.icon__villa {
+  color: #e0e5ff;
+  background-color: #304ffe;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.icon__apartment {
+  color: #e0e5ff;
+  background-color: #fe3030;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.icon__store {
+  color: #e0e5ff;
+  background-color: #3ec23e;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.icon__office {
+  color: #e0e5ff;
+  background-color: #f5bf10;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.icon svg {
+  font-size: 1.3rem;
+}
+
+.title {
+  font-weight: 400;
+  margin-bottom: 7px;
+
+  font-size: 1.2rem;
+}
+
+.location {
+  display: flex;
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 400;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 7px;
+}
+
+.price {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #304ffe;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    margin: 15px 0;
+    min-width: 100%;
+  }
+}

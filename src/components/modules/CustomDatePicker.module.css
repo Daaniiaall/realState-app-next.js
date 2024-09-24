@@ -1,0 +1,16 @@
+.container {
+  padding: 10px 10px 0 0;
+  margin: 50px 0;
+}
+
+.container h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #304ffe;
+    margin-bottom: 5px;
+}
+
+.container input {
+    padding: 15px;
+    font-weight: 400;
+}

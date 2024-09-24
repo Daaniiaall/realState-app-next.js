@@ -1,0 +1,25 @@
+.container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.container p {
+  font-size: 1.25rem;
+}
+
+.createdAt {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.createdAt span {
+  font-weight: 400;
+  font-size: 1.15rem;
+  margin-left: 10px;
+}
+.createdAt p {
+  font-size: 1.15rem;
+  color: grey;
+}

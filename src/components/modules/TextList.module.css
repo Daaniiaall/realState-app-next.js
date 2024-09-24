@@ -1,0 +1,54 @@
+.container {
+  padding: 10px 10px 0 0;
+  margin-bottom: 25px;
+}
+
+.container h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #304ffe;
+  margin-bottom: 5px;
+}
+
+.container input {
+  border: 1px dashed #304ffe;
+  outline: none;
+  margin-bottom: 10px;
+  max-width: 200px;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+}
+
+.container button {
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.container span {
+  display: block;
+  color: #af2121;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.delete__button {
+  border: 1px solid #af2121;
+  background-color: transparent;
+  color: #af2121;
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+.add__button {
+  background-color: #304ffe;
+  border: none;
+  color: #fff;
+}
+
+.container svg {
+  margin-right: 4px;
+}

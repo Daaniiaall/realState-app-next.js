@@ -1,0 +1,88 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
+.form form {
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 700px;
+    border: 3px solid #304ffe;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px -15px #304ffe ;
+}
+
+.form h2 {
+    color: #304ffe;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form input {
+    padding: 10px;
+    border: 2px dashed #304ffe;
+    min-width: 250px;
+    border-radius: 5px;
+}
+
+.input__form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.input__form div {
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+.input__form input {
+    position: absolute;
+}
+
+
+.form label {
+    padding: 10px;
+    color: #304ffe;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.form button {
+    background-color: #304ffe;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.form p {
+    color: #45464b;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.form a {
+    color: #304ffe;
+    font-weight: 400;
+    margin-right: 8px;
+    border-bottom: 2px solid #304ffe ;
+}
+
+.form input:focus {
+    border: 2px solid #304ffe ;
+    outline: none;
+}
+
+.form button:hover {
+    transform: scale(1.05);
+}
