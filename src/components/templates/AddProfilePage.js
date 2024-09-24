@@ -32,12 +32,10 @@ function AddProfilePage({data}) {
 
   const [loader, setLoader] = useState(false);
 
-  useEffect( () => { 
-
+  useEffect(() => { 
     if(data){
       setProfileData(data)
     }
-
   } , [])
   
   const router = useRouter();
