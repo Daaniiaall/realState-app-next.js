@@ -6,10 +6,11 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import Client from "@/models/Client";
 
 import MyProfilesPage from "@/templates/MyProfilesPage";
-
-import { useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
 
 async function MyProfiles() {
+
+  redirect("/dashboard/my-profiles")
 
   await connectDB();
 
